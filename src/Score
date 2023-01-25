@@ -1,14 +1,9 @@
-function Score(props) {
-    return (
-        <div>
-            <h1>Scores: {props.studentList.scores} </h1>
-            <ul>
-                {props.studentList.scores.map(score => <li key={score}>{score}<li>)}}
-
-
-            </ul>
-        </div>
-    );
-}
-
-export default Score;
+const Score = (props) => {
+    return(
+      <h4>Date: {props.score.date}<h4>
+      <h4>Score:  {props.score.score}</h4>
+      <br/>
+    )
+  }
+  
+  export default Score
