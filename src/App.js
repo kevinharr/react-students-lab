@@ -6,9 +6,9 @@ import './App.css';
 
 
 function App() {
-  const [studentData, setStudentData] = useState(studentInfo)
+  // const [studentData] = useState(studentInfo)
   return (
-    <StudentList students= {studentData} />
+    <StudentList students= {studentInfo} />
   )
 
 }
